@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyLocalBanks</string>
+    <string name="bank">My Local Banks</string>
+    <string name="Access">Accessing all the banks fast and conveniently!</string>
+    <string name="List">Bank List : </string>
+    <string name="DBS"><u>DBS</u></string>
+    <string name="OCBC"><u>OCBC</u></string>
+    <string name="UOB"><u>UOB</u></string>
+    <string name="ThankYou">Thank you for using the app!</string>
+</resources>

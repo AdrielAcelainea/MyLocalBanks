@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:backgroundTint="#66E3E3E3"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewTitular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="42dp"
+        android:textColor="@color/black"
+        android:text="@string/bank" />
+
+    <TextView
+        android:id="@+id/textViewAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="@string/Access" />
+
+    <TextView
+        android:id="@+id/textViewBankList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        android:text="@string/List" />
+
+    <TextView
+        android:id="@+id/textViewDBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="@string/DBS" />
+
+    <TextView
+        android:id="@+id/textViewOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="@string/OCBC" />
+
+    <TextView
+        android:id="@+id/textViewUOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="@string/UOB" />
+
+    <TextView
+        android:id="@+id/textViewThankYou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/daylight"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/ThankYou" />
+
+
+</LinearLayout>
